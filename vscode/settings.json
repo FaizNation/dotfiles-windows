@@ -1,0 +1,59 @@
+{
+  "python.defaultInterpreterPath": "phyton en",
+  "git.autofetch": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "vscode-pets.theme": "winter",
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.startupEditor": "none",
+  "vscord.app.name": "Visual Studio Code",
+  "remote.SSH.remotePlatform": {
+    "sandbox.mqqz7g.csb": "linux",
+    "sandbox.psxgq9.csb": "linux",
+    "sandbox.chpmps.csb": "linux",
+    "sandbox.qhg7hl.csb": "linux"
+  },
+  "codesandbox.currentWorkspace": "ws_KJDV46teYh29iN1TbNxfj9",
+  "code-runner.runInTerminal": true,
+  "codesnap.containerPadding": "",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 0px 0px",
+  "codesnap.transparentBackground": true,
+  "vscode-pokemon.theme": "forest",
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "bongocat",
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "animations.Enabled": true,
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/ASUS/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.fontVariations": false,
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.hotReloadOnSave": "all",
+  "files.autoSaveDelay": 100,
+  "terminal.integrated.commandsToSkipShell": ["matlab.interrupt"],
+  "mdb.mcp.server": "prompt",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "background.panelBackgrounds": ["c:/Users/ASUS/Downloads/download.jpeg"],
+  "background.windowBackgrounds": ["d:/UI&UX/Background vscode/desktop.jpeg"],
+  "editor.codeActionsOnSave": {},
+  "background.backgroundOpacity": [0.05, 0.1, 0.1, 0.1],
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
+}
