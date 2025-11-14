@@ -16,3 +16,9 @@ Clear-Host
 if (Get-Command fastfetch -ErrorAction SilentlyContinue) {
     fastfetch -c "C:/Users/%PROFILE%/.config/fastfetch/config.jsonc"
 }
+
+Import-Module PSReadLine
+Set-PSReadLineOption -EditMode Windows
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -PredictionViewStyle InlineView
