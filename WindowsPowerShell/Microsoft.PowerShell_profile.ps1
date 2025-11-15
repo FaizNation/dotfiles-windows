@@ -14,11 +14,33 @@ Clear-Host
 
 # Force Fastfetch to use YOUR config every time (bypass path confusion)
 if (Get-Command fastfetch -ErrorAction SilentlyContinue) {
-    fastfetch -c "C:/Users/%PROFILE%/.config/fastfetch/config.jsonc"
+    fastfetch -c "C:/Users/ASUS/.config/fastfetch/config.jsonc"
 }
 
+# --- PSReadLine Configuration ---
 Import-Module PSReadLine
 Set-PSReadLineOption -EditMode Windows
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -PredictionViewStyle InlineView
+
+# --- ALIAS ---
+
+# 1. Git Add 
+function ga {
+    if ($args) { git add $args } 
+    else { Write-Host "Adding all files..." -ForegroundColor Cyan; git add . }
+}
+
+# 2. Git Commit & Push
+function gc { git commit -m $args }
+function gps { git push }
+function gpl { git pull }
+function gs { git status }
+
+# 3. Branch
+function gb  { git branch }             # Lihat list branch
+function gco { git checkout $args }     # Pindah branch
+function gcb { git checkout -b $args }  # Buat & Pindah ke branch baru
+function gbd { git branch -d $args }    # Hapus branch
+function ll  { Get-ChildItem -Force }   # Lihat file termasuk hidden
