@@ -33,8 +33,8 @@ function ga {
 }
 
 # 2. Git Commit & Push
-function gc { git commit -m $args }
-function gps { git push }
+function gct { git commit -m $args }
+function gpsh { git push }
 function gpl { git pull }
 function gs { git status }
 
